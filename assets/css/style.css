@@ -31,14 +31,14 @@ CSS TABLE OF CONTENTS
     4.04 --> footer
 
 ------------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
-  --space-grotesk: "Space Grotesk", sans-serif;
-  --inter: "Inter", sans-serif;
+  --font-title: "Urbanist", sans-serif;
+  --font-body: "Mulish", sans-serif;
   --theme-color1: #215846;
   --theme-color2: #101b17;
-  --text-color1: #000;
-  --text-color2: #fff;
+  --text-color1: #000000;
+  --text-color2: #ffffff;
   --main-bg: #ffffff;
   --sub-bg: #f1f7f4;
   --heading-color: #151314;
@@ -64,7 +64,7 @@ CSS TABLE OF CONTENTS
 body {
   margin: 0;
   padding: 0;
-  font-family: var(--inter);
+  font-family: var(--font-body);
   color: var(--paragraph);
   background-color: var(--main-bg);
   line-height: 28px;
@@ -80,13 +80,13 @@ h6 {
   margin: 0;
   padding: 0;
   color: var(--heading-color);
-  font-family: var(--space-grotesk);
+  font-family: var(--font-title);
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
-  line-height: 100px;
+  line-height: 96px;
 }
 @media (max-width: 767px) {
   h1 {
@@ -96,9 +96,9 @@ h1 {
 }
 
 h2 {
-  font-size: 56px;
-  font-weight: 500;
-  line-height: 72px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
 }
 @media (max-width: 767px) {
   h2 {
@@ -121,8 +121,8 @@ h3 {
 
 h4 {
   font-size: 24px;
-  line-height: 35px;
-  font-weight: 500;
+  line-height: 34px;
+  font-weight: 700;
 }
 @media (max-width: 767px) {
   h4 {
@@ -133,30 +133,21 @@ h4 {
 
 h5 {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 30px;
 }
 
 h6 {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
+  line-height: 28px;
 }
 
 p {
   margin: 0;
   padding: 0;
-  line-height: 32px;
-  font-size: 18px;
-}
-@media (max-width: 767px) {
-  p {
-    font-size: 16px;
-    line-height: 26px;
-  }
-}
-p.fs-16 {
   font-size: 16px;
-  line-height: 26px;
+  line-height: 28px;
 }
 
 span {
@@ -203,7 +194,7 @@ button {
 
 ::placeholder {
   color: var(--span);
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .mt-5 {
@@ -1658,19 +1649,15 @@ button {
 }
 
 .title-font {
-  font-family: var(--space-grotesk) !important;
+  font-family: var(--font-title) !important;
 }
 
 .text-font {
-  font-family: var(--inter) !important;
+  font-family: var(--font-body) !important;
 }
 
 .shadow {
   box-shadow: var(--shadow) !important;
-}
-
-.gray__bg {
-  background-color: rgba(247, 247, 249, 0.5019607843) !important;
 }
 
 .bg-image {
