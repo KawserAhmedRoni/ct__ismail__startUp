@@ -1,11 +1,11 @@
 /*-----------------------------------------------------------------
 
-Template Name: Agenshark - Startup Agency HTML Template
-Author:  Gramentheme
-Author URI: https://themeforest.net/user/gramentheme/portfolio
+Template Name: Innovatek - interior HTML Template
+Author:  ThemeMascot
+Author URI: https://themeforest.net/user/thememascot/portfolio
 Developer: Kawser Ahmed Roni
 Version: 1.0.0
-Description: Gratech - IT Service HTML5 Template
+Description: Innovatek - interior HTML5 Template
 
 -------------------------------------------------------------------
 CSS TABLE OF CONTENTS
